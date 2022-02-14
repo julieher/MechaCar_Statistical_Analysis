@@ -79,7 +79,7 @@ Deliverable 3: T-Tests on Suspension Coils
 # names(suspension_coil)
 
 PSI_manufacturing_lots <- t.test(suspension_coil$PSI, mu=1500)
-
+show(PSI_manufacturing_lots)
 ```
 
 Use the t.test() function and subset() to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 
